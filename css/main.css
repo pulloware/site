@@ -1,0 +1,78 @@
+body { font: .8em Georgia, "Times New Roman", Serif; background: #fff; color: #777; }
+a { color: #D40000; text-decoration: none; }
+	a:hover { color: #8F0000; }
+p { line-height: 1.7em; margin: 0 0 15px; }
+.x { clear: both; }
+
+h2 { font-weight: normal; font-size: 2em; padding: 0 0 10px; margin: 0 0 15px; }
+h3 { font-size: 1.7em; font-weight: normal; margin: 0 0 20px; }
+h4 { font-size: 1.5em; font-weight: normal; margin: 0 0 0 0px; }
+	h3 a { color: #222; }
+	.col h3 { color: #222; }
+h3 em { color: #222; }
+cite a {color: inherit;}
+input, textarea { margin-bottom: 10px; }
+
+#logo { line-height: 0.5em; float: left; font-size: 2em; font-weight: normal; font-style: italic; padding: 0 0 5px 10px; margin: 0 0 5px; }
+#subtitle { font-size: 0.6em; margin: 0 0 0 0px; padding: 0 0 0 0px; font-style: italic; color: #222; }
+
+.disclaimer { color: #222; }
+
+#content { width: 960px; margin: 40px auto; }
+
+#menu { float: right; margin: 10px 10px 0 0;  position: relative; }
+	#menu > li { display: inline; list-style: none; }
+	#menu li a { float: left; margin: 0 0 0 20px; color: #888; }
+		#menu li a:hover { color: #555; }
+
+.submenu-popup { position: absolute; top: 15px; left: 0px; white-space: nowrap; padding-top: 10px; background: #fff}
+	.submenu-popup li { padding: 3px 5px 6px 5px; font: 1em Verdana;}
+.visible { display: block; }
+.hidden { display: none; }
+
+.listitem{border-bottom: 1px solid #ddd;}
+.listitem.last {border-bottom: 0px;}
+
+.postblock{ padding: 30px 10px; margin: 0 0 40px; }
+.post { clear: both;  border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
+	.post .details { float: left; width: 250px; }
+	.post .details h2 { color: #222; }
+	.post .details .info { font-size: .9em; color: #999; }
+		.post .details .info a { color: #777; border-bottom: 1px dotted #999; padding: 3px 1px; }
+	.post .body { float: right; width: 618px; padding: 0 0 0 30px; border-left: 1px solid #ddd; }
+	
+.col { width: 290px; margin: 0 40px 30px 0; float: left; font-size: .9em; }
+	.col.last { margin-right: 0; }
+
+#map { float: left; }
+#address {float: right; line-height: 1.5}
+
+#contactus { clear: both; margin-top: 30px; margin-bottom: 30px;}
+
+#footer { clear: both; border-top: 1px solid #ddd; padding: 20px 0; font-size: .9em; color: #999; }
+
+blockquote {
+	border-left: 0.5em solid #DDD;
+}
+
+blockquote:before {
+	display: block;
+	height: 0;
+	content: "“";
+	margin-left: -.95em; font: italic 400%/1 Cochin,Georgia,"Times New Roman", serif;
+	color: #999; 
+}
+
+blockquote {
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 6px rgba(0,0,0,0.5);
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+blockquote {
+	margin: 1.5em 0 1.5em -1.5em;
+	padding: .75em .5em .75em 1em;
+	background: #fff;
+	font-size: 1.2em;
+	line-height: 1.5;
+}
